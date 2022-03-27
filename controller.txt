@@ -1,3 +1,6 @@
 
 
 # adding controllers
+
+
+router.get('/', (req, res) => return res.send("hello, world"));
