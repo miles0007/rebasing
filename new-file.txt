@@ -1,5 +1,9 @@
 
+require('dotenv')
 
+let mongoose = require('mongoose');
+
+mongoose.connect();
 
 let express = requrie('express');
 
@@ -8,3 +12,5 @@ let app = express()
 app.use(express.json())
 
 app.listen(port, () => console.log("Listening on port"));
+
+// adding information for communication
